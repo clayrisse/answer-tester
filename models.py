@@ -2,16 +2,17 @@
 from datetime import datetime
 import requests
 import os
-from dotenv import load_dotenv
+from ç import load_dotenv
 
 """ 
  Remember to set KB_ID, KB_URL, API_KEY and GLOBAL_AUTH_TOKEN keys in your .env file
+ Also you'll need to install dotenv
 
  To get the GLOBAL_AUTH_TOKEN do the following on the CLI:
- - Run: 
+ - To install the CLI, run: 
 
         pip install nuclia
-        
+
 
  - After is intalled you need to authenticate and get the token with:
 
@@ -19,6 +20,9 @@ from dotenv import load_dotenv
 
 
  - This will take you to a browswer where you can copy the token 
+
+ More documentation about the CLI here:
+ https://docs.nuclia.dev/docs/guides/sdk/python-sdk/README
 
 """
 def load_keys():

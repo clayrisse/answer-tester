@@ -2,7 +2,7 @@
 from datetime import datetime
 import requests
 import os
-from ç import load_dotenv
+from dotenv import load_dotenv
 
 """ 
  Remember to set KB_ID, KB_URL, API_KEY and GLOBAL_AUTH_TOKEN keys in your .env file
